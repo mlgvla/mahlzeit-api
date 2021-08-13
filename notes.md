@@ -26,6 +26,10 @@ https://api.edamam.com/api/recipes/v2?type=public&q=quinoa%20parsley&app_id=b68c
 [] add a My Recipes page (with link on Navbar)
 [] implement loading recipes (in RecipeSearchContainer component)
 [] implement getMyRecipes - remember to JSON.parse the ingredients (actually, do I have to?  I can do that right before displaying them)
-[] implement postMyRecipe - remember to JSON.stringify the ingredients array and adding it back to the object BEFORE posting!!!
+    let ingredientParser = (ingredientLines) => {
+        return JSON.parse(ingredientLines)
+    }
+[] implement postMyRecipe - remember to JSON.stringify the ingredients array and adding it back to the object BEFORE posting!!! Do this in the save handler!
 
-
+[] Math.round(calories/yield) to calculate calories per serving
+[] Source will be the text for the url link
