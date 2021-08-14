@@ -20,16 +20,19 @@ https://api.edamam.com/api/recipes/v2?type=public&q=quinoa%20parsley&app_id=b68c
 [x] make a very crude Navbar
 [x] assign a unique id to each hit in the reducer!!!!!!  I need this for the details page!
 [x] add links on recipe hits to recipe detail page (eventually tack on a save button)
+[x] implement loading recipes (in RecipeSearchContainer component)
 
 
 8/13/21
-[] add a My Recipes page (with link on Navbar)
-[] implement loading recipes (in RecipeSearchContainer component)
-[] implement getMyRecipes - remember to JSON.parse the ingredients (actually, do I have to?  I can do that right before displaying them)
+[x] add a My Recipes page (with link on Navbar)
+[x] implement getMyRecipes - remember to JSON.parse the ingredients. Parse ingredients in reducer before putting in global store
     let ingredientParser = (ingredientLines) => {
         return JSON.parse(ingredientLines)
     }
+
+8/14/21
+[] add save button to recipe card and recipe detail card 
 [] implement postMyRecipe - remember to JSON.stringify the ingredients array and adding it back to the object BEFORE posting!!! Do this in the save handler!
 
-[] Math.round(calories/yield) to calculate calories per serving
+[] Math.round(calories/yield) to calculate calories per serving for card display
 [] Source will be the text for the url link
