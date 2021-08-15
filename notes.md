@@ -31,8 +31,12 @@ https://api.edamam.com/api/recipes/v2?type=public&q=quinoa%20parsley&app_id=b68c
     }
 
 8/14/21
-[] add save button to recipe card and recipe detail card 
-[] implement postMyRecipe - remember to JSON.stringify the ingredients array and adding it back to the object BEFORE posting!!! Do this in the save handler!
+[x] add save button to recipe card and recipe detail card 
+[x] implement postMyRecipe - remember to JSON.stringify the ingredients array and adding it back to the object BEFORE posting!!! Do this in the save handler!
 
-[] Math.round(calories/yield) to calculate calories per serving for card display
-[] Source will be the text for the url link
+[x] Math.round(calories/yield) to calculate calories per serving for card display
+[x] Source will be the text for the url link
+
+8/15/21
+[] if the parent component is MyRecipesContainer, don't show the save button.  Show a Delete Button.  Let parent identify itself to Card in the props
+[] implement Delete Recipe.  Show alert
