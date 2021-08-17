@@ -13,6 +13,11 @@ class RecipesController < ApplicationController
         end
     end
 
+    def destroy
+        recipe = Recipe.find(params[:id])
+        recipe.destroy
+    end
+
     def recipe_params
         params.require(:recipe).permit(:label, :image, :url, :yield, :ingredientLines, :source, :calories) 
     end
