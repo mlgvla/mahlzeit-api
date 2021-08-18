@@ -38,5 +38,18 @@ https://api.edamam.com/api/recipes/v2?type=public&q=quinoa%20parsley&app_id=b68c
 [x] Source will be the text for the url link
 
 8/15/21
-[] if the parent component is MyRecipesContainer, don't show the save button.  Show a Delete Button.  Let parent identify itself to Card in the props
-[] implement Delete Recipe.  Show alert
+[x] implement Delete Recipe.  Show alert
+
+8/17/21
+[x] bring in recipe card styling from CodePen pinned example
+
+8/18/21
+[] implement MyRecipeDetail page - see if I can standardize the MyRecipeDetail and RecipeDetail into the same component - stretch goal
+[] bring in Bootstrap Navigation bar
+[] add source link to recipe card
+[] display My Recipes with styled cards
+[] image placeholder if no image
+[] error handling if no recipes are found
+[] stretch:  add more filters to search page eg., dietary restrictions - use dropdown boxes
+[] landing page image and app description
+[] stretch: shopping list (use shopping cart icons - fontawesome)
